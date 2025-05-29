@@ -9,10 +9,15 @@ import {
 
 import { router } from './Routes/Routers.jsx';
 
+import { HelmetProvider } from 'react-helmet-async';
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-   <div className='max-w-screen-xl'>
+    <HelmetProvider>
+      <div className='max-w-screen-xl'>
     <RouterProvider router={router}/>
    </div>
+    </HelmetProvider>
+   
   </StrictMode>,
 )

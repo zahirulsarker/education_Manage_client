@@ -1,11 +1,13 @@
 import React from 'react'
 
-import p1 from '../../assets/Partners/p1.png'
-import p2 from '../../assets/Partners/p2.png'
-import p3 from '../../assets/Partners/p3.png'
-import p4 from '../../assets/Partners/p4.png'
-import p5 from '../../assets/Partners/p5.png'
-import p6 from '../../assets/Partners/p6.png'
+import p1 from '../../../assets/Partners/p1.png';
+import p2 from '../../../assets/Partners/p2.png';
+import p3 from '../../../assets/Partners/p3.png';
+import p4 from '../../../assets/Partners/p4.png';
+import p5 from '../../../assets/Partners/p5.png';
+import p6 from '../../../assets/Partners/p6.png';
+
+
 
 const Partner = () => {
   return (

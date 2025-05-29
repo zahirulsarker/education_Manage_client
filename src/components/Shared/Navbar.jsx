@@ -1,17 +1,19 @@
 
 import { MdCastForEducation } from "react-icons/md";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
+
+
 const Navbar = () => {
    const links = <>
         <li><NavLink to="/">Home</NavLink></li>
-        <li><NavLink to="/">all classes</NavLink></li>
+        <li><NavLink to="/allClasses">all classes</NavLink></li>
         <li><NavLink to="/ManageMyItem">teach through eduManage</NavLink></li>
         <li><NavLink to="/register">register</NavLink></li>
         <li><NavLink to="/profile picture">Profile picture</NavLink></li>
        
     </>
   return (
-    <div className="navbar bg-base-100 shadow-sm">
+    <div className="container mx-auto navbar bg-base-100 shadow-sm">
     <div className="navbar-start">
       <div className="dropdown">
         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -43,7 +45,9 @@ const Navbar = () => {
       </ul>
       </div>
     <div className="navbar-end">
-      <a className="btn">Button</a>
+      <Link to='login'><button>Login</button>
+      </Link>
+      
     </div>
   </div>
     

@@ -1,9 +1,9 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 import { Carousel } from 'react-responsive-carousel';
 
-import edu1 from '../../assets/edu1.jpg'
-import edu2 from '../../assets/edu2.jpg'
-import edu5 from '../../assets/edu5.jpg'
+import edu1 from '../../../assets/edu/edu1.jpg'
+import edu2 from '../../../assets/edu/edu2.jpg'
+import edu5 from '../../../assets/edu/edu5.jpg'
 const Banner = () => {
   return (
 
